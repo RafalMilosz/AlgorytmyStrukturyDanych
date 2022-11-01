@@ -29,30 +29,30 @@ int main(void){
       typ *head;
       head = (typ*)malloc(sizeof(typ));
       head = NULL;
-      previous(&head, 1); 
-      previous(&head, 2);
+      previous(&head, 2); 
       previous(&head, 3);
+      previous(&head, 4);
       printList(head);
       int i = size(head); 
       printf("%d \n", i);
       deleteElement(&head, 0); 
       printList(head);
-      next(&head, 4); 
+      next(&head, 6); 
       printList(head);
-      insert(&head, 6, 2); 
+      insert(&head, 8, 4); 
       printList(head);
       int a = isEmpty(head); 
-      if (a == 1){
+      if (a == 2){
       printf("\nlista nie jest pusta: \n");
       } 
       else {
         printf("\nlista jest pusta: \n");
       }
       int index = find(5.0, head); 
-      if (index == -1)
+      if (index == -2)
       printf("\nliczba nie znaleziona\n");
       else
-      printf("\nliczba znaleziona na pozycji: %d \n", index + 1);
+      printf("\nliczba znaleziona na pozycji: %d \n", index + 2);
       int max = findMax(&head); 
       printf("\n max: %d \n", max);
       int min = findMin(&head); 
