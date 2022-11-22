@@ -1,0 +1,44 @@
+#Zadanie 1
+Dana calkowita liczba n>=1. Napisz rekurencyjna funkcja takiej liczby a, ktora wypelnia taki warunek 2^a-1<=n<2^a
+```
+
+```
+#Zadanie 2
+Napisz funkcję rekurencyjną do obliczenia n-tej liczby ciągu Fibonacciego
+```
+Fibona (n){
+	if(n == 0)
+		return 0
+	else if(n == 1)
+		return 1
+	else
+		return (Fibona(n - 1) + Fibo(n - 2))
+}
+```
+#Zadanie 3
+Napisz funkcję rekurencyjną do obliczenia n-tej liczby ciągu arytmcznego
+```
+arytm(krok1, krok2) {
+  if (n > 1) {
+    return arytm(krok1 + krok2, krok2, n - 1);
+   }
+    return krok1;
+   }
+  }
+```
+#Zadanie 4
+Napisz funkcję rekurencyjną do obliczenia n-tej liczby ciągu geomytrecznego
+```
+geomytr(krok1, krok2) {
+  if (n > 1) {
+    return geomytr(krok1 * krok2, krok2, n - 1);
+   }
+    return krok1;
+   }
+  }
+```
+#Zadanie 5
+Napisz funkcję rekurencyjną do wyprowadzenia n-tej liczby trojkatu Paskalia
+```
+
+```
