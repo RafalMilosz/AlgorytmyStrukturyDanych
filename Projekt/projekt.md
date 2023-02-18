@@ -137,7 +137,7 @@ Na przykład, gdy użytkownik wprowadza zapytanie w wyszukiwarce internetowej, a
 Innym przykładem zastosowania algorytmu dzielenia łańcucha tekstowego na słowa może być analiza tekstu w programach do obróbki języka naturalnego. Na przykład, analizując wypowiedź użytkownika na temat produktu, algorytm ten może pomóc w wyodrębnieniu istotnych słów kluczowych, które pozwalają na określenie opinii użytkownika o produkcie.
 
 ## Program
-[main.c](/C/main.c)
+[main.c](/Projekt/projekt.c)
 
 </br></br>
 
