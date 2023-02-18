@@ -75,7 +75,7 @@ W **kryptografii asymetrycznej**, taka jak **RSA**, klucz publiczny składa się
 **Algorytm wyznaczania liczb względnie pierwszych** może pomóc w znalezieniu wszystkich liczb pierwszych w danym zakresie, a następnie sprawdzeniu, które z nich spełniają określone kryteria i mogą zostać użyte do wyznaczenia kluczy prywatnych i publicznych.
 
 ## Program
-[projekt.c](/projekt.c)
+[projekt.c](projekt.c)
 
 </br></br>
 
@@ -137,7 +137,7 @@ Na przykład, gdy użytkownik wprowadza zapytanie w wyszukiwarce internetowej, a
 Innym przykładem zastosowania algorytmu dzielenia łańcucha tekstowego na słowa może być analiza tekstu w programach do obróbki języka naturalnego. Na przykład, analizując wypowiedź użytkownika na temat produktu, algorytm ten może pomóc w wyodrębnieniu istotnych słów kluczowych, które pozwalają na określenie opinii użytkownika o produkcie.
 
 ## Program
-[projekt.c](/projekt.c)
+[projekt.c](projekt.c)
 
 </br></br>
 
@@ -153,7 +153,7 @@ Innym przykładem zastosowania algorytmu dzielenia łańcucha tekstowego na sło
 Jednym z przykładów zastosowania algorytmu usuwania elementów z listy jednokierunkowej może być aplikacja do zarządzania listą zadań w systemie operacyjnym. W takiej aplikacji, lista zadań może być przechowywana jako lista jednokierunkowa, gdzie każdy element na liście reprezentuje pojedyncze zadanie. Algorytm usuwania elementów z listy jednokierunkowej może być użyty w takiej aplikacji do usuwania zadań, które zostały już wykonane lub zostały anulowane przez użytkownika.
 
 ## Program
-[projekt.c](/projekt.c)
+[projekt.c](projekt.c)
 
 </br></br>
 
